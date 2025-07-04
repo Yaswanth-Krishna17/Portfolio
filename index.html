@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Yaswanth Krishna | Portfolio</title>
+  <meta name="description" content="Portfolio of M. Yaswanth Krishna – Frontend Developer & AI Explorer. Projects, skills, and contact info.">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    /* Custom styles for animated background */
+    .gradient-bg {
+      background: linear-gradient(120deg, #007BFF 0%, #28a745 100%);
+      animation: gradientMove 6s ease-in-out infinite alternate;
+    }
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-white/80 backdrop-blur z-50 shadow-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-3 px-4">
+      <span class="font-bold text-xl text-blue-600">Yaswanth Krishna</span>
+      <ul class="flex space-x-6 text-sm font-semibold">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#services" class="hover:text-blue-500">Services</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="relative min-h-screen flex items-center justify-center gradient-bg overflow-hidden pt-20">
+    <!-- Animated background can be enhanced with JS later -->
+    <div class="absolute inset-0 opacity-20 pointer-events-none"></div>
+    <div class="relative z-10 flex flex-col items-center text-center">
+      <!-- Profile Picture Placeholder -->
+      <div class="w-40 h-40 rounded-full border-4 border-blue-500 shadow-lg mb-6 overflow-hidden animate-bounce">
+        <img src="assests/Profile.jpg" alt="Profile" class="object-cover w-full h-full" onerror="this.src='https://via.placeholder.com/160x160?text=Photo'">
+      </div>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow">Hi, I'm Yaswanth – frontend enthusiast & AI explorer.</h1>
+      <div class="flex space-x-4 mt-4">
+        <a href="#projects" class="px-6 py-2 bg-blue-600 text-white rounded-full font-semibold shadow hover:bg-blue-700 transition">View My Work</a>
+        <a href="#contact" class="px-6 py-2 bg-green-500 text-white rounded-full font-semibold shadow hover:bg-green-600 transition">Get in Touch</a>
+      </div>
+    </div>
+    <!-- Smooth scroll indicator -->
+    <a href="#about" class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white text-2xl">↓</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto py-20 px-4">
+    <!-- TODO: Add bio, education, experience, startups -->
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">About Me</h2>
+    <p class="mb-4">A passionate and driven student with a strong focus on frontend development and a growing enthusiasm for the world of AI and Machine Learning. I am dedicated to building intuitive, user-friendly web experiences and exploring how intelligent technologies can be integrated to create smarter applications.</p>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="font-semibold text-lg mb-2">Education</h3>
+        <ul class="list-disc ml-5">
+          <li>B.Tech in Computer Science and Engineering (AIML), VIT-AP University</li>
+          <li>Expected Graduation: 2027</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg mb-2">Experience</h3>
+        <ul class="list-disc ml-5">
+          <li>Industrial Internship at Blackbucks (Generative AI & ChatGPT domain)</li>
+          <li>Internship at Cognifyz (Machine Learning)</li>
+          <li>Active contributor to startups: Keychain, Upfront</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8">
+      <h3 class="font-semibold text-lg mb-2">Startups</h3>
+      <ul class="list-disc ml-5">
+        <li>Keychain – A sports club connection platform</li>
+        <li>Upfront – A startup incubator platform</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-white py-20 px-4">
+    <!-- TODO: Add animated skill bars or tags -->
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-600 mb-6">Skills</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">C</span>
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">Python</span>
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-medium">Java</span>
+        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full font-medium">HTML</span>
+        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full font-medium">CSS</span>
+        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full font-medium">JavaScript</span>
+        <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-medium">Data Structures & Algorithms (Java)</span>
+        <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-medium">Frontend</span>
+        <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-medium">UI/UX Design</span>
+        <span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium">Communication</span>
+        <span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium">Collaboration</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="max-w-6xl mx-auto py-20 px-4">
+    <!-- TODO: Add project cards with hover animations -->
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Project Card Example -->
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <h3 class="font-semibold text-lg mb-2">Hotel Booking Website</h3>
+        <p class="mb-2 text-sm">A basic hotel booking web application using HTML, CSS, and JavaScript.</p>
+        <a href="https://key2stay.netlify.app/" class="text-blue-500 hover:underline">View Project</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <h3 class="font-semibold text-lg mb-2">Keychain</h3>
+        <p class="mb-2 text-sm">A web-based platform to connect various sports clubs.</p>
+        <a href="#" class="text-blue-500 hover:underline">View Project</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <h3 class="font-semibold text-lg mb-2">Upfront</h3>
+        <p class="mb-2 text-sm">A startup incubator site supporting user-driven ideas.</p>
+        <a href="#" class="text-blue-500 hover:underline">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-gray-100 py-20 px-4">
+    <!-- TODO: Add icon-based cards or timeline -->
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-600 mb-6">What I Can Do</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow p-6 flex flex-col items-center hover:shadow-lg transition">
+          <span class="text-4xl mb-3">💻</span>
+          <h3 class="font-semibold mb-2">Frontend Web Development</h3>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6 flex flex-col items-center hover:shadow-lg transition">
+          <span class="text-4xl mb-3">🎨</span>
+          <h3 class="font-semibold mb-2">UI/UX Design for Responsive Websites</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto py-20 px-4">
+    <!-- TODO: Add vibrant contact form with validation -->
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">Contact</h2>
+    <form class="bg-white rounded-xl shadow-lg p-8 space-y-6" id="contactForm">
+      <div>
+        <label class="block font-semibold mb-1" for="name">Name</label>
+        <input class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label class="block font-semibold mb-1" for="email">Email</label>
+        <input class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label class="block font-semibold mb-1" for="message">Message</label>
+        <textarea class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded font-semibold hover:bg-blue-700 transition">Send Message</button>
+    </form>
+    <div class="mt-8">
+      <h3 class="font-semibold mb-2">Contact Info</h3>
+      <ul class="space-y-1">
+        <li>Email: <a href="mailto:yaswanthkrishna1704@gmail.com" class="text-blue-500 hover:underline">yaswanthkrishna1704@gmail.com</a></li>
+        <li>Phone: <a href="tel:+919885731385" class="text-blue-500 hover:underline">+91 98857 31385</a></li>
+        <li>GitHub: <a href="https://github.com/Yaswanth-Krishna17" class="text-blue-500 hover:underline" target="_blank">Yaswanth-Krishna17</a></li>
+        <li>LinkedIn:<a href="www.linkedin.com/in/yaswanthkrishnamaddu0406" class="text-blue-500 hover:underline" target="_blank">Yaswanth Krishna Maddu</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm bg-white border-t mt-12">
+    &copy; 2024 M. Yaswanth Krishna. All rights reserved.
+  </footer>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html> 
